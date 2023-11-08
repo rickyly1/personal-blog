@@ -81,19 +81,16 @@ img {
 
 /* Main Header */
 .header {
-    display: grid;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    padding-top: 10px;
-    grid-template-areas:
-    "logo button"
-    "menu menu";
 }
 
 @media only screen and (min-width: 768px) {
     .header {
+        display: grid;
         grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto;
         grid-template-areas: 
         "logo menu button";
     }
@@ -121,6 +118,8 @@ img {
     grid-area: button;
     display: flex;
     justify-content: end;
+    align-items: center;
+    gap: 10px;
 }
 
 .header__button button {
