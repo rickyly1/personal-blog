@@ -56,8 +56,12 @@ textarea {
 }
 
 img {
-    width: 100%;
-    
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img-container {
+    display: flex;
 }
 
 /* Layout */
@@ -176,6 +180,38 @@ img {
 .author__body {
     font-size: var(--font-size-md);
     margin: 5px 0 40px 0;
+}
+
+.dashboardNav {
+    display: none;
+}
+
+.logout {
+    display: none;
+}
+
+.login {
+    display: block;
+}
+
+/* About Page */
+.about-socials {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-socials li a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+
+.about-socials li img {
+    width: 45px;
+    margin-right: 10px;
+    margin-left: 0;
 }
 
 /* Home Article List */
