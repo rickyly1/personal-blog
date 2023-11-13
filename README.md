@@ -9,9 +9,9 @@ Welcome to my blog! This is a platform I made to get some practice with Node.js,
 - [Contributing](#contributing)
 
 ## Features
-- [Write, Edit, and Delete posts]
-- [Administrator Login, authentification and verification]
-- [Search the site for posts, filters title and body content]
+- Write, Edit, and Delete posts
+- Administrator Login, authentification and verification
+- Search the site for posts, filters title and body content
 
 ## Installation
 To set up a local copy of the blog:
