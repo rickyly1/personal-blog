@@ -36,3 +36,6 @@ To set up a local copy of the blog:
     3. Make your changes and commit them.
     4. Push to the branch.
     5. Create a pull request.
+
+
+Thank you for reading!
