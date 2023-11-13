@@ -7,7 +7,6 @@ Welcome to my blog! This is a platform I made to get some practice with Node.js,
 - [Features](#features)
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - [Write, Edit, and Delete posts]
@@ -25,11 +24,12 @@ To set up a local copy of the blog:
     ```shell
    MONGODB_URI=...
    JWT_SECRET="..."
-6. Run in root folder
+5. Run in root folder
     ```shell
     npm run build
-   ## Contributing
-7. If you'd like to contribute or suggest changes:
+
+## Contributing
+   If you'd like to contribute or suggest changes:
 
     1. Fork the repository.
     2. Create a new branch.
