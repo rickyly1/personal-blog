@@ -19,14 +19,17 @@ To set up a local copy of the blog:
 
 1. Clone this repository.
 2. Install dependencies
+   ```shell
     npm install
-3. Write a .env file and include a secret key and MongoDB URI
-    MONGODB_URI=...
-    JWT_SECRET="..."
-4. Run in root folder
+4. Write a .env file and include a secret key and MongoDB URI
+    ```shell
+   MONGODB_URI=...
+   JWT_SECRET="..."
+6. Run in root folder
+    ```shell
     npm run build
    ## Contributing
-5. If you'd like to contribute or suggest changes:
+7. If you'd like to contribute or suggest changes:
 
     1. Fork the repository.
     2. Create a new branch.
