@@ -1,4 +1,4 @@
-# Your Blog's Name
+# Node.Js/Express/MongoDB Blog
 
 ## Description
 Welcome to my blog! This is a platform I made to get some practice with Node.js, Express, and MongoDB.
